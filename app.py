@@ -29,4 +29,4 @@ def get_bot_sentiment():
     return str('Based on my sentiment calculation you are currently feeling "'+sentiment_response(sent_msg)+'"')
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=False, host='0.0.0.0')
