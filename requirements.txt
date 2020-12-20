@@ -166,7 +166,6 @@ pylint
 PyNaCl 
 pyOpenSSL 
 pyparsing==2.4.7
-pypiwin32==223
 pyreadline==2.1
 pyrsistent==0.16.0
 PySocks==1.7.1
