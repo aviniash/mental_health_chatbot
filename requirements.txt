@@ -1,8 +1,7 @@
 nltk==3.5
 regex
 keras==2.4.3
-pickle
+pickle-mixin
 numpy==1.19.2
 pandas==1.1.3
-json
 flask==1.1.2
