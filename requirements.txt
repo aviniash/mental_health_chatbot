@@ -1,5 +1,5 @@
 nltk==3.5
-re==2.2.1
+regex==2.2.1
 keras==2.4.3
 pickle==4.0
 numpy==1.19.2
