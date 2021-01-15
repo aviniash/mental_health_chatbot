@@ -23,6 +23,8 @@ model_sent = load_model('cnn_w2v.h5')
 import json
 import random
 
+nltk.download('punkt')
+
 intents = json.loads(open('intents.json', encoding='utf-8').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
