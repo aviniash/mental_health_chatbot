@@ -34,5 +34,5 @@ jobs:
       with:
         app-name: 'happiness'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7389ff418b57463cbe0c04d47937f5f1 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_691951b9374c45a69360efb6342af4d8 }}
         package: '.\myapp.zip'
